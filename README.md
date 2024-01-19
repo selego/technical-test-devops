@@ -22,8 +22,7 @@
 
 - Gérez les secrets de l'application en utilisant des variables d'environnement pour stocker les informations sensibles de manière sécurisée.
 - Protégez l'accès à la route `/secret`.
-  
-**Note:** Veuillez nous fournir des instructions claires sur la manière d'accéder à la route `/secret` une fois que celle-ci esst sécurisée
+- **[Live Coding/Questions]** Discutez et mettez en œuvre des mesures de sécurité avancées pour la route /secret.
 
 
 ### **Étape 4: Tests Unitaires pour le Déploiement**
@@ -31,7 +30,7 @@
 - Écrivez des tests unitaires pour valider le bon fonctionnement de l'application lors de son déploiement. Cela devrait inclure, mais ne pas se limiter à :
     1. **Tests de Connexion à la Base de Données :** Assurez-vous que l'application peut établir une connexion à MongoDB une fois déployée.
     2. **Tests de Disponibilité :** S'assurer que l'application est accessible et répond aux requêtes une fois déployée. Cela pourrait être un simple test de ping ou une vérification que l'URL principale renvoie un code de statut 200.
-- Intégrez ces tests dans votre pipeline CI/CD. C'est-à-dire que lorsque GitHub Actions déploie votre application, il devrait également exécuter ces tests pour s'assurer que le déploiement a été réussi.
+- **[Live Coding/Questions]** Intégrez ces tests dans le pipeline CI/CD et démontrez leur fonctionnement.
 
 **ETAPES BONUS**
 
@@ -39,6 +38,7 @@
 
 - Configurez la gestion des erreurs en utilisant Sentry pour capturer et gérer les erreurs de l'application.
 - Trouvez un moyen de monitoring et de visualisation des métriques. Le but étant de pouvoir facilement repérer qui s’est connecté suite à une intrusion par exemple.
+- **[Discussion]** Parlez de vos stratégies pour la surveillance et la mise à l'échelle automatique.
 
 **Note:** Veuillez nous fournir les identifiants pour accéder à Sentry.
 
