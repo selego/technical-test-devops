@@ -21,10 +21,6 @@
 ### **Étape 3: Gestion des Secrets et de la Sécurité**
 
 - Gérez les secrets de l'application en utilisant des variables d'environnement pour stocker les informations sensibles de manière sécurisée.
-- Protégez l'accès à la route `/secret`.
-  
-**Note:** Veuillez nous fournir des instructions claires sur la manière d'accéder à la route `/secret` une fois que celle-ci esst sécurisée
-
 
 ### **Étape 4: Tests Unitaires pour le Déploiement**
 
